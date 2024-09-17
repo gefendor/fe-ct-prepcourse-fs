@@ -4,40 +4,48 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width,initial-scale=1.0" />
         <title> Mi primer sitio web </title>   
-        </head>
+    </head>
+
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    
 <body>
 <header> 
-    <h1 style="text-align: center;" > <strong> <i> <big> <i> DIARIO EL PROFETA </i> </big> </i> </strong>  </h1>
+    <h1 id="titulo"> DIARIO EL PROFETA </h1>
 </header>
-    <nav style="text-align: center;"> 
-        <button> HOME </button> 
-        <button> DEPORTES </button>  
-        <button> NOTICAS </button>
-        <button> CLASIFICADOS </button>
+    <nav>
+        <ul class="menulista1">
+            <li><a href="#"> HOME </a></li>
+            <li><a href="#"> DEPORTES </a></li>
+            <li><a href="#"> CLASIFICADOS </a></li>
+        </ul> 
+        
     </nav>
 <main> 
     <section>
         <article>
-            <h2> TITULARES </h2>
-            <h3> <strong> LA PARTIDA DE LUFFY </strong> </h3>
+            <h2 class="subtitulo1"> TITULARES </h2>
+            <h3 class="subtitulo2"> LA PARTIDA DE LUFFY </h3>
+            <p class="parrafos"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, maiores. Repudiandae ad ut nisi fugit delectus impedit ratione? Quae, aperiam aliquam? Porro numquam perspiciatis distinctio facere! Dolore eius officia odit!. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis eveniet recusandae vero illo accusantium, sint nisi atque harum culpa nihil dolorem nemo deleniti impedit enim. Neque in a quae laboriosam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum reiciendis dolores eum sapiente pariatur et omnis consequatur sit rem fugiat suscipit aspernatur natus, ex, at accusamus veniam dolor. Quaerat, quas?</p>
             <div> <img src="https://th.bing.com/th/id/OIP.HzdTzKsDVMznIZnDw_SYwQHaEo?rs=1&pid=ImgDetMain" alt="Luffy se despide"> </div>
-            <br>
-            <br>
-            <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, maiores. Repudiandae ad ut nisi fugit delectus impedit ratione? Quae, aperiam aliquam? Porro numquam perspiciatis distinctio facere! Dolore eius officia odit!. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis eveniet recusandae vero illo accusantium, sint nisi atque harum culpa nihil dolorem nemo deleniti impedit enim. Neque in a quae laboriosam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum reiciendis dolores eum sapiente pariatur et omnis consequatur sit rem fugiat suscipit aspernatur natus, ex, at accusamus veniam dolor. Quaerat, quas?</p>
-            <h4> <strong> SUSPENDEN TORNEO DE QUIDDITCH </strong> </h4>
+        </article> 
+    </section>        
+    <section>
+        <article>
+            <h4 class="subtitulo2"> SUSPENDEN TORNEO DE QUIDDITCH </h4>
             <img src="https://th.bing.com/th/id/R.3f0cbd43b1328277b352b1da535dd785?rik=eJR0N35xGEfhBw&riu=http%3a%2f%2fvignette3.wikia.nocookie.net%2fharrypotter%2fimages%2f6%2f6b%2fWizards_Campsite_for_the_1994_Quidditch_World_Cup.JPG%2frevision%2flatest%3fcb%3d20091115023712&ehk=r1VSgfll58%2bly1AtYOvCiTNdfaYFyQnE%2bVd1G7%2fITO8%3d&risl=&pid=ImgRaw&r=0" alt="Campamento de quidditch destruido">
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad itaque iste expedita a, officiis maiores culpa repellat labore reprehenderit ullam sapiente vero consequuntur explicabo, dolor quod tempore, suscipit cum. Incidunt? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque amet cum non minima culpa ipsam, fugit doloribus odit praesentium neque vitae quas, laboriosam unde nesciunt officiis id. Sed, dolores corporis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus deserunt odit minima vero aliquid blanditiis fuga odio dignissimos aspernatur asperiores autem, consectetur nemo saepe atque perspiciatis omnis perferendis aliquam beatae. </p>
-    <br>
-    <br>
-        </article>       
-        <h5 style="text-align: center;"> <big> SUSCRIBETE A NUESTRO NEWSLETTER </big>  </h5>
-        <p style="text-align: center;"> E-mail <input type="email"> </p> 
-        <p style="text-align: center;"> <input type="submit"> </p>  
+            <p class="parrafos"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad itaque iste expedita a, officiis maiores culpa repellat labore reprehenderit ullam sapiente vero consequuntur explicabo, dolor quod tempore, suscipit cum. Incidunt? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque amet cum non minima culpa ipsam, fugit doloribus odit praesentium neque vitae quas, laboriosam unde nesciunt officiis id. Sed, dolores corporis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus deserunt odit minima vero aliquid blanditiis fuga odio dignissimos aspernatur asperiores autem, consectetur nemo saepe atque perspiciatis omnis perferendis aliquam beatae. </p>
+        </article> 
+    </section>
+    <section>
+        <h5 class="titulo2"> SUSCRIBETE A NUESTRO NEWSLETTER </h5>
+        <div id="nmail"> <p> email </p> </div> 
+        <input type="email">
+        <button> Submit </button>
     </section>
 </main>
-<hr>
 <footer>
-   <p style="text-align: center;"> <a href="#"> <U> CONTACTENOS // </U> </a> DIRECCION: AV siempre viva 123 // TELEFONO: +x 123 456 7899 </p>
+   <div id="contacto"> <h5> <a href="#"> CONTACTENOS </h5> </div> 
+   <div id="datos1"> <p> DIRECCION: AV siempre viva 123 TELEFONO: +x 123 456 7899 </p> </div>  
 </footer>
 </body>
 </html>
