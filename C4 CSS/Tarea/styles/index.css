@@ -1,8 +1,8 @@
 body {
   background-image: url("./Fondomancha.png");
   background-repeat: no-repeat;
-  background-size: 59%;
-  background-position: center ;
+  background-size:80%;
+  background-position: right top -570px;
   margin-left: 100px;  
 }
 
@@ -69,12 +69,12 @@ nav {
 #texto2 {
   color: rgb(4, 4, 97);
   font-size: 55px;
-  margin-right: 1070px;
+  margin-right: 800px;
   margin-top: -80px;
 }
 .parrafo1 {
-  font-size: 26px;
-  margin-right: 1150px;
+  font-size: 20px;
+  margin-right: 950px;
   text-align: justify;  
 }
 
