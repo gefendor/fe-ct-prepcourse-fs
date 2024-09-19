@@ -1,118 +1,95 @@
 body {
-  background-image: url("./Fondomancha.png");
-  background-repeat: no-repeat;
-  background-size:80%;
-  background-position: right top -570px;
-  margin-left: 100px;  
-}
-
-ul{
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-#encabezado2 {
-  margin: auto;
-  width: 1000px;
-
-}
-
-.botonave {
-  padding: 5px;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-top: -99px;
-  border-radius: 4px;
-  border-style: solid;
-  border-width: 1px;
-  background-color: transparent;
-
-}
-
-.nave1 li a {
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    padding: 10px 60px;
-    margin-left: -50px;
-    display: block;
-  }
-
-.nave1 > li {
-  float: left;
-}
-
-.nave1 li ul {
-  display: none;
-  position: absolute;
-}
-
-.nave1 li:hover > ul {
-  display: block;
-}
-.logo {
-  height: 20px;
-  margin-top: 10px;
+  width: 1300px;
+  height: 650px;
+  margin: 0px;
+  padding: 0px;
+  border: solid 1px black;
    
 }
-
-nav {
-  margin-top: -30px;
-  margin-left: 200px;
+header {
+  height: 33.99px;
+  margin-top: 33.99px;
+  margin-left: 140.92px;
+  display: flex;
+  justify-content:space-between;
+}
+nav{
+  width: 800px;
+  height: 23px;
+  margin-right: 140px;  
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+nav ul li {
+  list-style: none;
 }
 
-#texto1 {
-  color: orangered;
-  font-size: 12px;
-  margin-left: 12px;
-  margin-top: -110px;
-}  
-#texto2 {
-  color: rgb(4, 4, 97);
-  font-size: 55px;
-  margin-right: 800px;
-  margin-top: -80px;
-}
-.parrafo1 {
-  font-size: 20px;
-  margin-right: 950px;
-  text-align: justify;  
+nav ul li a {
+  text-decoration: none;
+  padding: 20px
 }
 
-#maleta1 {
-  margin-left: 380px;
-  margin-top: -1000px;
+#seccionprincipal {
+  display: flex;
+  margin-top: 20.75px;
+}
+
+#imgsueltas {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  margin-top: -510px;
+}
+
+.raya{
+  margin-left: 250px;
+  pos
   
 }
-
-.aviona {
-  margin-top: -710px;
-  margin-left: 500px;
-}
-
-.avionb {
-margin-top: -120px;
-margin-left: 1015px;
-}
-.boton1 {
-  padding: 15px;
-  padding-left: 30px;
-  padding-right: 30px;
-  border-radius: 10px;
-  border-style: none;
-  background-color:rgb(241, 165, 1);
-}
-.botonplay {
-  margin-top: -65px;
-  margin-left: 200px;
+.avion1{
+  position: relative;
+  right: 150px;
+  bottom: 79px;
   
 }
-#mancha1 {
-  margin-top: 100px;
-  margin-left: 230px;  
+.avion2{
+  position: relative;
+  right: 49px;
+  top: -40px;
 }
 
-.parrafo2 {
-  color: rgb(7, 7, 107);
-  margin-top: -100px;
-  margin-left: 300px;
+.ima1 {
+size: 50%;
+width: 500px;
+height: 500px;
+margin-top: 70px;
+margin-left: 148px;
+position: relative;
+}
+
+.ima2 {
+  width: 600px;
+  height: 600px;
+  margin-right: 150px;
+}
+
+.titulo1 {
+  font-size: small;
+  margin-top: 5px;
+  color:rgb(223, 105, 81)
+}
+
+.titulo2 {
+  font-size: 65px;
+  margin-top: 5px;
+}
+.parrafo {
+  font-size: 17px;
+}
+
+.mancha {
+  
 }
