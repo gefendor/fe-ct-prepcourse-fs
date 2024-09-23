@@ -3,8 +3,8 @@ body {
   height: 650px;
   margin: 0px;
   padding: 0px;
-  border: solid 1px black;
-   
+    
+  
 }
 header {
   height: 33.99px;
@@ -45,8 +45,9 @@ nav ul li a {
 }
 
 .raya{
-  margin-left: 250px;
-  pos
+  margin-left: 270px;
+  margin-top: 50px;
+  
   
 }
 .avion1{
@@ -72,7 +73,7 @@ position: relative;
 
 .ima2 {
   width: 600px;
-  height: 600px;
+  height: 570px;
   margin-right: 150px;
 }
 
@@ -91,5 +92,33 @@ position: relative;
 }
 
 .mancha {
-  
+  margin-left: 660px;
+  margin-bottom: -700px;
+  position:static;
+  width: 740px;
+  height: 715px;
+}
+
+.boton1 {
+  border-radius: 5px;
+  padding:10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgba(241, 165, 1, 1);
+  color: white;
+  border: none;
+
+}
+
+.boton2 {
+  margin-top: -43px;
+  margin-left: 150px;
+  width: 70px;
+}
+
+.demo {
+  margin-left: 220px;
+  margin-top: -58px;
 }
